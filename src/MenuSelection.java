@@ -20,7 +20,7 @@ public class MenuSelection {
             System.out.println("Please select an option: ");
             menuSelection = input.nextInt();
             switch (menuSelection) {
-                case 1:
+                case 1: 
                     randomNumberGenerator(input);
                     break;
                 case 2:
