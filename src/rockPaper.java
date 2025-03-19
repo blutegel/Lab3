@@ -11,6 +11,10 @@ import java.util.Random;
 
 public class rockPaper {
     public static void rockPaperScissors(int i) {
+        /** Method is a simple rock paper scissors game allowing one guess
+         *   and having the computer choose based on a random number
+         */
+
         Scanner keyboardSelection = new Scanner(System.in);
         while (i == 0)
         i = keyboardSelection.nextInt();
