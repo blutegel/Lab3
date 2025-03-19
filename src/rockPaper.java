@@ -1,7 +1,8 @@
 /**
  * Description A method called rockPaperScissors to play the rock paper scissors game.
+ * @author James Rohr
  * @param i the int representing the chosen selection
- * @returns nothing, but will print to the display the winner of the game
+ * @returns will print to the display the winner of the game
  *
  */
 

@@ -1,8 +1,8 @@
 /**
  * Partner Lab3
  * Description Program to allow for a menu selection of the two methods and an option for exit.
- * @author James Rohr
- * @author Asma Klai
+ * @author James Rohr { MenuSelection, RockPaperScissors Game }
+ * @author Asma Klai { RandomNumberGenerator Game}
  * @since 3-18-25
  * @param menuSelection
  * @return method chosen
