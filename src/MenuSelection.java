@@ -17,17 +17,28 @@ public class MenuSelection {
         //menu selection here in main with a do while loop
         int menuSelection;
         do {
-            System.out.println("Please select an option: ");
+            System.out.println("Please select a game to play: ");
+            System.out.println("To play numberGenerator select option 1: ");
+            System.out.println("To play RockPaperScissors select option 2: ");
+            System.out.println("To quit please select option 3: ");
             menuSelection = input.nextInt();
             switch (menuSelection) {
                 case 1:
-                    randomNumberGenerator(input);
+                    //randomNumberGenerator(input);
                     break;
                 case 2:
-                    rockPaperScissors(input);
+                    int i = 0;
+                    System.out.println("Welcome to the game RockPaperScissors!");
+                    System.out.println("Please enter your choice: ");
+                    System.out.println("Enter 1 for Paper. ");
+                    System.out.println("Enter 2 for Scissors. ");
+                    System.out.println("Enter 3 for Rock. ");
+                    Scanner choice = new Scanner(System.in);
+                    i = choice.nextInt();
+                    rockPaper.rockPaperScissors(i);
                     break;
                 case 3:
-                    //Close selection
+                    System.out.println("The program will now exit, have a great day!");
                     break;
                 default:
                     System.out.println("Please enter a valid selection.");
