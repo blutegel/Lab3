@@ -35,6 +35,13 @@ public class MenuSelection {
                     System.out.println("Enter 3 for Rock. ");
                     Scanner choice = new Scanner(System.in);
                     i = choice.nextInt();
+                    if (i == 1){
+                        System.out.println("You have chosen Paper! ");
+                    }else if (i == 2) {
+                        System.out.println("You have chosen Scissors!");
+                    }else if (i == 3) {
+                        System.out.println("You have chosen Rock");
+                    }
                     rockPaper.rockPaperScissors(i);
                     break;
                 case 3:
