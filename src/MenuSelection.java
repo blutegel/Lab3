@@ -18,13 +18,13 @@ public class MenuSelection {
         int menuSelection;
         do {
             System.out.println("Please select a game to play: ");
-            System.out.println("To play numberGenerator select option 1: ");
+            System.out.println("To play GuessingGame select option 1: ");
             System.out.println("To play RockPaperScissors select option 2: ");
             System.out.println("To quit please select option 3: ");
             menuSelection = input.nextInt();
             switch (menuSelection) {
                 case 1:
-                    //randomNumberGenerator(input);
+                    GuessingGame.playGuessingGame(input);
                     break;
                 case 2:
                     int i = 0;
